@@ -8,6 +8,9 @@
 			<h2 class="play-title"><%= @play.title %></h2>
 			<h3 class="play-director"><span><em>From: </em></span><%= @play.director %></h3>
 			<h4 class="play-director"><%= @play.category.name %></h4>
+			<h4 class="avg-rating">Average Rating</h4>
+			<div class="average-review-rating" data-score=<%= @average_review %>></div>
+			<span class="number-of-reviews"><em>From: </em><%= @play.reviews.count %> reviews </span>
 			<p class="play-desc"><%= @play.description %></p>
 		</div>
 	</div>
@@ -45,6 +48,15 @@
 	});
 </script>
 
+<script>
+	$('.average-review-rating').raty({
+		readOnly: true,
+		path: '/assets/',
+		score: function() {
+			return $(this).attr('data-score')
+		}
+	});
+</script>
 
 
 
