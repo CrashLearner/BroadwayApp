@@ -1,3 +1,5 @@
 
 
-* This Broadway app allows users to add Plays (with full CRUD ability), assign to Categories (Genres of the Plays) and also Review using a 5-star system (w/ Average Ratings as well).  Tutorial was made to teach Ruby on Rails in a Project-based fashion.  
+* This Broadway web app lookalike allows users to add Plays (with full CRUD ability), assign to Categories (Genres of the Plays) and also Review using a 5-star system (w/ Average Ratings as well).  Tutorial was made to teach Ruby on Rails in a Project-based fashion.  
+
+yonathan@crashlearner.com with Qs
